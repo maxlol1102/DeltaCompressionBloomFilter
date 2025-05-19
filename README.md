@@ -39,7 +39,9 @@ Bloom filters are probabilistic data structures for fast set membership queries.
 ## 📁 Project Structure
 
 DeltaCompressedBloomFilter/
+
 ├── bloom/ # BloomFilter and CountingBloomFilter classes
+
 ├── hash/ # Multiple hash function implementations
 ├── sync/ # DeltaEncoder and CountingDeltaEncoder
 ├── compress/ # RLECompressor implementation
