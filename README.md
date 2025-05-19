@@ -40,15 +40,21 @@ Bloom filters are probabilistic data structures for fast set membership queries.
 
 DeltaCompressedBloomFilter/
 
-├── bloom/ # BloomFilter and CountingBloomFilter classes
+  ├── bloom/ # BloomFilter and CountingBloomFilter classes
 
-├── hash/ # Multiple hash function implementations
-├── sync/ # DeltaEncoder and CountingDeltaEncoder
-├── compress/ # RLECompressor implementation
-├── benchmark/ # BenchmarkRunner and ReportGenerator
-├── data/ # Input data (e.g., 100k-most-used-passwords-NCSC.txt)
-├── main/ # Main class to execute experiments
-└── benchmark_results.csv # Output CSV with experimental results
+  ├── hash/ # Multiple hash function implementations
+
+  ├── sync/ # DeltaEncoder and CountingDeltaEncoder
+  
+  ├── compress/ # RLECompressor implementation
+
+  ├── benchmark/ # BenchmarkRunner and ReportGenerator
+
+  ├── data/ # Input data (100k-most-used-passwords-NCSC.txt)
+
+  ├── main/ # Main class to execute experiments
+
+  └── benchmark_results.csv # Output CSV with experimental results
 
 
 
